@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'models/add', component: ModelAddComponent},
   {path: 'offers', component: OffersAllComponent},
   {path: 'offers/add', component: OfferAddComponent},
-  {path: 'offers/details/:id', component: OfferDetailsComponent},
+  {path: 'offers/detail/:id', component: OfferDetailsComponent},
   {path: 'offers/update/:id', component: OfferUpdateComponent},
 ];
 
